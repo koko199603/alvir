@@ -33,7 +33,7 @@ if(file_exists("config.json")){
     $token = $arr2['token'];
     $memberid = $arr2['id'];
     $hp = $arr2['hp'];
-    echo "| Selagi masih ada banyakin akun lu $hp \n";
+    echo "| Selagi masih ada banyakin akun lu $KWr \n";
     echo "| 1. Login \n";
     echo "| 2. Daftar \n";
     echo "| Pilih: ";
