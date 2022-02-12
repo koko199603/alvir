@@ -32,8 +32,7 @@ if(file_exists("config.json")){
     $arr2 = json_decode(file_get_contents('config.json'), true);
     $token = $arr2['token'];
     $memberid = $arr2['id'];
-    $hp = $arr2['hp'];
-    echo "| Selagi masih ada banyakin akun lu $hp \n";
+    echo "| Selagi masih ada banyakin akun lu  \n";
     echo "| 1. Login \n";
     echo "| 2. Daftar \n";
     echo "| Pilih: ";
