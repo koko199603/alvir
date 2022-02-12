@@ -24,9 +24,16 @@ $deviceid= "$random1-936d-974b-a9ef-$random2$random3";
 $deviceid2 = "\"$deviceid\"";
 echo "\n";
 echo "\n";
-echo "| Welcome to ALFAGIFT ACCOUNT GENERATOR!! \n";
-echo "| Simpel script kilat \n";
-echo "| Wa 08123456790 \n";
+os.system('clear');
+include "fcgomart.php";
+ulang:
+// function change(){
+echo color("purple","               CLAIM VOUCHER GOJEK   GOMART                  \n");
+echo color("red","                By king @pemangsavoucher                     \n");
+echo color("nevy","        Waktu  : ".date('[d-m-Y] [H:i:s]')."                        \n");
+echo color("green","         Donasi Bisa Ke WA Dibawah Ini                       \n") ;
+echo color("yellow","                 WA 08xxxxxxxxxx                          \n");
+echo color("blue","        Format Nomor 08/62 Pake Salah Satu                  \n");
 echo "| --------------------------- \n";
 if(file_exists("config.json")){
     $arr2 = json_decode(file_get_contents('config.json'), true);
