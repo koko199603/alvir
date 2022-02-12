@@ -25,7 +25,7 @@ $deviceid2 = "\"$deviceid\"";
 echo "\n";
 echo "\n";
 echo "| Welcome to BELANJA PUAS DUIT AMBLAS !! \n";
-echo "| Simpel script KILAT \n";
+echo "| Simpel Script KILAT \n";
 echo "| Hajas Bor Sampe Saldo ATM lu Abiss \n";
 echo "| --------------------------- \n";
 if(file_exists("config.json")){
